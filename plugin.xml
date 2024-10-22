@@ -27,8 +27,8 @@
           <action android:name="woyou.aidlservice.jiuv5.COVER_ERROR_ACTION" />
           <action android:name="woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_1" />
           <action android:name="woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_2" />
-          <action android:name="woyou.aidlservice.jiuv5.OVER_HEATING_ACITON" />
-          <action android:name="woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACITON" />
+          <action android:name="woyou.aidlservice.jiuv5.OVER_HEATING_ACTION" />
+          <action android:name="woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACTION" />
         </intent-filter>
       </receiver>
       <service android:name="woyou.aidlservice.jiuiv5.IWoyouService">
